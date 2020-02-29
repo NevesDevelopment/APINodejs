@@ -1,0 +1,20 @@
+{
+  "name": "ApiNode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/bin/server.js",
+    "dev": "nodemon ./src/bin/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http": "^0.0.0",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
